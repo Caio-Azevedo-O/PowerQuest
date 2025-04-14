@@ -14,7 +14,7 @@
       <img src="imagem/Power.png" alt="Logo" class="logo-img">
     </div>
     <div class="nav-links">
-      <a href="index.html" class="nav-link">Início</a>
+      <a href="index.php" class="nav-link">Início</a>
       <a href="#" class="nav-link">Planos</a>
       <a href="#" class="nav-link">Login</a>
     </div>
