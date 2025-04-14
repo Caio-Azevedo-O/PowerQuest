@@ -12,7 +12,7 @@
   <div class="header">
     <div class="logo">PowerQuest</div>
     <div class="nav-links">
-      <a href="#" class="nav-link">Início</a>
+      <a href="home_cliente.php" class="nav-link">Início</a>
       <a href="#" class="nav-link">Planos</a>
       <a href="#" class="nav-link">Avaliação</a>
       <a href="#" class="nav-link">Consulta</a>
