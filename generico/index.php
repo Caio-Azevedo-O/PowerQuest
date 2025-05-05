@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Power Quest</title>
   <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" type="image/png" href="imagem/Logo.png">
+
 </head>
 <body>
 
@@ -15,13 +18,13 @@
     </div>
     <div class="nav-links">
       <a href="index.php" class="nav-link">Início</a>
-      <a href="#" class="nav-link">Planos</a>
-      <a href="#" class="nav-link">Login</a>
+      <a href="planos.php" class="nav-link">Planos</a>
+      <a href="login.php" class="nav-link">Login</a>
     </div>
   </div>
 
   <!-- Banner -->
-  <img src="imagem/nav-home.png" class="banner">
+  <img src="imagem/nav.jpg" class="banner">
 
   <!-- Seção Principal -->
   <section class="section-1">
