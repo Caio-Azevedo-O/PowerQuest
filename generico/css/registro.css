@@ -1,224 +1,71 @@
-/* registro.css */
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerQuest</title>
+  <link rel="stylesheet" href="css/registro.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="imagem/Logo.png">
 
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to bottom, #1b1b1b, #00c6ff);
-    color: #fff;
-  }
-  /* Header */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #1a1a1a;
-    padding: 20px 40px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-  }
+</head>
+<body>
+   
   
-  
-  .logo-img {
-    max-width: 600px;     
-    height: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  <div class="registro-container">
+    <div class="formulario">
+      <img class="logo" src="imagem/Power.png" alt="Logo">
+      <h2><span>Cadastre</span>-Se</h2>
+      <form>
+        <input type="text" placeholder="Nome e sobrenome:">
+        <input type="text" placeholder="CPF:">
 
-    display: block;
-    margin-left:0%;
-    margin-right: auto;
-  }
-  
-  
-  .nav-links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-link {
-    margin-right: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    transition: color 0.3s;
-  }
-  
-  .nav-link:hover {
-    color: #a100ff;
-  }
-  
-  .registro-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    min-height: 100vh;
-    padding: 2rem;
-  }
-  
-  .formulario {
-    flex: 1;
-    background: linear-gradient(to bottom right, #121212, #4c00ff);
-    padding: 3rem;
-    border-radius: 20px 0 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 800px;
-  }
-  
-  .formulario .logo {
-    width: 625px;
-    margin-bottom: 20px;
-  }
-  
-  .formulario h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .formulario h2 span {
-    color: #00c6ff;
-  }
-  
-  form input,
-  form select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    border: none;
-    font-size: 1rem;
-  }
-  
-  form label {
-    font-weight: bold;
-    margin-top: 1rem;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  .flex-group {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .flex-group input {
-    flex: 1;
-  }
-  
-  button.prosseguir {
-    background-color: #00c6ff;
-    color: #000;
-    border: none;
-    padding: 0.8rem;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  button.prosseguir:hover {
-    background-color: #009ad8;
-  }
-  
-  .imagem-lateral {
-    flex: 1;
-    background: linear-gradient(to bottom, #121212, #4c00ff);
-    border-radius: 0 20px 20px 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-  
-  .imagem-lateral img {
-    max-width: 300%;
-    width: 800px;
-    border-radius: 10px;
-  }
-  
-  .info-pessoal {
-    background-color: #6e00ff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
+        <label>Possui alguma deficiência física? Se sim, qual?</label>
+        <input type="text" placeholder="Sim/Não">
 
- /* Footer */
-  .footer {
-    background: #000;
-    color: #ccc;
-    padding: 40px 20px;
-  }
-  
-  .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-  }
-  
-  .footer-logo {
-    margin-left: 1%;
-    width: 600px;
-    height: auto;
-    color: #a100ff;
-  }
-  
-  .footer-links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .footer-link {
-    margin-left: 20px;
-    margin-right: 20px;
+        <div class="flex-group">
+          <input type="text" placeholder="Peso:">
+          <input type="text" placeholder="Altura:">
+          <input type="text" placeholder="Data de nascimento:">
+        </div>
 
-    color: #ccc;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
+        <label>Possui doença crônica? Se sim, qual?</label>
+        <input type="text" placeholder="Sim/Não">
+        <input type="text" placeholder="Ex: Diabetes, pressão alta...">
+
+        <input type="text" placeholder="Alergias: Ex: pasta, amendoim, poeira, pelo">
+
+        <label>Qual o seu objetivo:</label>
+        <select>
+          <option>Ganhar massa muscular</option>
+          <option>Definir e esculpir o corpo</option>
+          <option>Perder peso</option>
+          <option>Melhorar o cardio</option>
+          <option>Saúde</option>
+        </select>
+
+        <label>Tempo de Treino:</label>
+        <select>
+          <option>1 a 2 anos</option>
+          <option>3 a 5 anos</option>
+          <option>Mais de 5 anos</option>
+          <option>Estou retornando após um tempo</option>
+        </select>
+
+        <button type="submit" class="prosseguir">Prosseguir</button>
+        <br>
+        <p>Ja tem uma conta? <a style="color:aliceblue;" href="login.html">Entrar</a></p>
+      </form>
+    </div>
+
+    <div class="imagem-lateral">
+      <img src="imagem/Logo.png" alt="Homem fitness">
+    </div>
+  </div>
+
   
-  .footer-link:hover {
-    color: #fff;
-  }
-  
-  .footer-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
-  }
-  
-  .footer-left {
-    flex: 2;
-    min-width: 300px;
-  }
-  
-  .footer-left h3 {
-    margin-bottom: 10px;
-    color: #fff;
-  }
-  
-  .footer-right {
-    flex: 1;
-    min-width: 200px;
-    text-align: right;
-  }
-  
-  .social-media a {
-    margin-left: 10px;
-  }
-  
-  .social-media img {
-    filter: brightness(0) invert(1);
-    transition: transform 0.2s;
-  }
-  
-  .social-media img:hover {
-    transform: scale(1.1);
-  }
+</body>
+</html>
+
