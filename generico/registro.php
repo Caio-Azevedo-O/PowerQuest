@@ -10,6 +10,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+   <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <img src="imagem/Power.png" alt="Logo" class="logo-img">
+    </div>
+    <div class="nav-links">
+      <a href="index.php" class="nav-link">Início</a>
+      <a href="planos.php" class="nav-link">Planos</a>
+      <a href="login.php" class="nav-link">Login</a>
+    </div>
+  </div>
   <div class="registro-container">
     <div class="formulario">
       <img class="logo" src="imagem/Power.png" alt="Logo">
@@ -55,15 +66,14 @@
     </div>
 
     <div class="imagem-lateral">
-      <img src="imagem/bombado.png" alt="Homem fitness">
+      <img src="imagem/Logo.png" alt="Homem fitness">
     </div>
   </div>
 
   <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-logo">        
-        <img src="imagem/Power.png" alt="Logo">
-      </div>
+   <div class="footer-container">      
+      <img class="footer-logo" src="imagem/Power.png" alt="Logo">
+      
       <div class="footer-links">
         <a href="#" class="footer-link">Início</a>
         <a href="#" class="footer-link">Planos</a>
@@ -71,7 +81,6 @@
         <a href="#" class="footer-link">Contato</a>
       </div>
     </div>
-
     <div class="footer-info">
       <div class="footer-left">
         <h3>Quem Somos??</h3>
