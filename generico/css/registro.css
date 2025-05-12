@@ -6,6 +6,45 @@ body {
     background: linear-gradient(to bottom, #1b1b1b, #00c6ff);
     color: #fff;
   }
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a1a;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  
+  .logo-img {
+    max-width: 600px;     
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    display: block;
+    margin-left:0%;
+    margin-right: auto;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #a100ff;
+  }
   
   .registro-container {
     display: flex;
@@ -18,12 +57,12 @@ body {
   .formulario {
     flex: 1;
     background: linear-gradient(to bottom right, #121212, #4c00ff);
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 20px 0 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 600px;
+    max-width: 800px;
   }
   
   .formulario .logo {
@@ -90,12 +129,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    margin-left: 0px;
   }
   
   .imagem-lateral img {
     max-width: 300%;
-    width: 580px;
+    width: 800px;
     border-radius: 10px;
   }
   
@@ -108,7 +147,7 @@ body {
   }
   
 
-  /* Footer */
+ /* Footer */
   .footer {
     background: #000;
     color: #ccc;
@@ -124,8 +163,9 @@ body {
   }
   
   .footer-logo {
-    font-size: 1.5em;
-    font-weight: bold;
+    margin-left: 1%;
+    width: 600px;
+    height: auto;
     color: #a100ff;
   }
   
@@ -135,6 +175,9 @@ body {
   }
   
   .footer-link {
+    margin-left: 20px;
+    margin-right: 20px;
+
     color: #ccc;
     text-decoration: none;
     transition: color 0.3s;
@@ -179,25 +222,3 @@ body {
   .social-media img:hover {
     transform: scale(1.1);
   }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .section-1 {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .right-image, .left-text {
-      padding: 0;
-    }
-  
-    .footer-info {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .footer-right {
-      text-align: center;
-    }
-  }
-  
