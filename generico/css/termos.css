@@ -1,0 +1,127 @@
+ /* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a1a;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  
+  .logo-img {
+    max-width: 600px;     
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    display: block;
+    margin-left:0%;
+    margin-right: auto;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #a100ff;
+  }
+   /* Footer */
+  .footer {
+    background: #000;
+    color: #ccc;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .footer-logo {
+    margin-left: 1%;
+    width: 600px;
+    height: auto;
+    color: #a100ff;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-link {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: #fff;
+  }
+  
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .footer-left {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .footer-left h3 {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-right {
+    flex: 1;
+    min-width: 200px;
+    text-align: right;
+  }
+  
+  .social-media a {
+    margin-left: 10px;
+  }
+  
+  .social-media img {
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s;
+  }
+  
+  .social-media img:hover {
+    transform: scale(1.1);
+  }
